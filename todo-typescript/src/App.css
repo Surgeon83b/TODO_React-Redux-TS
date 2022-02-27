@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo_item {
+  max-width: 400px;
+  margin: 15px auto;
+}
+
+li {
+ border: 2px solid #f5e941;
+ background-color: whitesmoke;
+ color: #3989c9;
+ border-radius: 10%;
+ font-weight: bolder;
+ min-width: 250px;
+ height: 36px;
+ align-content: center;
+ display: flex;
+ margin: 2px;
+ margin-top: 5px;
+ padding-left: 5px;
+ padding-right: 2px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.item {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 12pt;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.myButton {
+  background-color: #3989c9;
+  border: 2px solid #f5e941;
+  border-radius: 15%;
+  width: 46px;
+  height: 46px;
+  color: white;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.todoOptions {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12' fill='%23fff'%3E%3Cpath d='M0 0h24L12 12z'/%3E%3C/svg%3E") calc(100% - 10px) center no-repeat;
+  background-color: #3989c9;
+  background-size: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  max-width: 100%;
+  outline: none;
+  padding: 2px 30px 6px 12px;
+  margin-left: 5px;
+  width: 150px;
+  display: flex;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+h2 {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
